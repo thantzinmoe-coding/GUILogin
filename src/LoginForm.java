@@ -16,7 +16,7 @@ public class LoginForm {
     private JTextField txtInfo;
     private JFrame frame;
 
-    private String _connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=JAVAProj;user=sa;password=sasa@123;trustServerCertificate=true";
+    private String _connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=JAVAProj;user=sa;password=sa@123;trustServerCertificate=true";
 
     public void ClearControls(){
         txtName.setText("");
